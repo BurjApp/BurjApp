@@ -9,7 +9,7 @@ import { store } from "../src/redux/store.redux";
 const Index = () => {
   return (
     <Provider store={store}>
-      <SafeAreaView className="bg-[#1F104A]">
+      <SafeAreaView className="bg-[#a790e5]">
         <Stack.Screen options={{ title: "Burj App" }} />
         <View className="h-full w-full p-4">
           <Text>Hello World</Text>
